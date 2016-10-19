@@ -10,7 +10,7 @@
                       http://www.springframework.org/schema/security/spring-security.xsd">
 
 
-<http><intercept-url pattern="/**" access="permitAll" />
+<http><intercept-url pattern="/sensitive-function" access="permitAll" />
 </http>
 
 </beans:beans> 
